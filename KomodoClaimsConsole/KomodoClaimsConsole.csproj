@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{059343E0-6B2F-4651-9FD0-6038A52E4C10}</ProjectGuid>
+    <ProjectGuid>{F45AD422-AE56-4983-BE8A-A08E073A49FD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Komodo_Cafe</RootNamespace>
-    <AssemblyName>Komodo Cafe</AssemblyName>
+    <RootNamespace>KomodoClaimsConsole</RootNamespace>
+    <AssemblyName>KomodoClaimsConsole</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CafeMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
