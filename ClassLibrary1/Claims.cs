@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace KomodoClaimsLibrary
 {
+    public enum ClaimType
+    {
+        Car = 1,
+        Home,
+        Theft
+    }
     public class ClaimItems
     {
-        public enum ClaimType
-        {
-            Car = 1,
-            Home,
-            Theft
-        }
         public int ClaimID { get; set; }
         public ClaimType TypeOfClaim { get; set; }
         public string Description { get; set; }
